@@ -1,0 +1,3 @@
+reports_dir: "data/raw"
+ocr_dir: "data/ocr"
+data_file: "tbk-performance.csv"

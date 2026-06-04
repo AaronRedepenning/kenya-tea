@@ -1,0 +1,4 @@
+data/ocr
+data/raw
+*.pdf
+.venv
