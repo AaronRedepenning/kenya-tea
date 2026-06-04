@@ -6,6 +6,7 @@ import streamlit as st
 
 full_df = pd.read_csv("data/tbk-performance.csv")
 full_df["date"] = pd.to_datetime(full_df["date"])
+full_df["value"] /= 1_000_000
 
 st.set_page_config(
     # Title and icon for the browser's tab bar:
@@ -46,7 +47,7 @@ with cols[0].container(border=True, height="stretch"):
         .mark_line(point=True)
         .encode(
             x=alt.X("date:T", timeUnit="monthdate", title="Date"),
-            y=alt.Y("value:Q", title="Tea production (kg)"),
+            y=alt.Y("value:Q", title="Tea production (million kg)"),
             color=alt.Color("year(date):N", title="Year"),
             tooltip=[
                 alt.Tooltip("date:T", title="Date"),
