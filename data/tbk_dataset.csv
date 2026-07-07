@@ -6,7 +6,7 @@ date,year,month,metric,region,value,unit,source,source_type
 2021-02-01,2021,February,tea_production,east_of_rift,20529278.0,kg,kenya-tea-industry-performance-highlights-2022-February.pdf,extracted
 2021-02-01,2021,February,tea_production,west_of_rift,33882657.0,kg,kenya-tea-industry-performance-highlights-2022-February.pdf,extracted
 2021-03-01,2021,March,tea_production,all,48692709.0,kg,kenya-tea-industry-performance-highlights-2022-March.pdf,extracted
-2021-03-01,2021,March,tea_production,east_of_rift,-3088403.0,kg,kenya-tea-industry-performance-highlights-2022-March.pdf,extracted
+2021-03-01,2021,March,tea_production,east_of_rift,3088403.0,kg,kenya-tea-industry-performance-highlights-2022-March.pdf,extracted
 2021-03-01,2021,March,tea_production,west_of_rift,30606156.0,kg,kenya-tea-industry-performance-highlights-2022-March.pdf,extracted
 2021-04-01,2021,April,tea_production,all,44299460.0,kg,kenya-tea-industry-performance-highlights-2022-April.pdf,extracted
 2021-04-01,2021,April,tea_production,east_of_rift,18548754.0,kg,kenya-tea-industry-performance-highlights-2022-April.pdf,extracted
@@ -95,8 +95,8 @@ date,year,month,metric,region,value,unit,source,source_type
 2024-02-01,2024,February,tea_production,west_of_rift,35876518.0,kg,kenya-tea-industry-performance-highlights-2025-February.pdf,extracted
 2024-03-01,2024,March,tea_production,all,54850000.0,kg,,hand_labeled
 2024-04-01,2024,April,tea_production,all,53852778.0,kg,kenya-tea-industry-performance-highlights-2024-April.pdf,extracted
-2024-04-01,2024,April,tea_production,east_of_rift,1493053.0,kg,kenya-tea-industry-performance-highlights-2024-April.pdf,extracted
-2024-04-01,2024,April,tea_production,west_of_rift,5059425.0,kg,kenya-tea-industry-performance-highlights-2024-April.pdf,extracted
+2024-04-01,2024,April,tea_production,east_of_rift,18493353.0,kg,kenya-tea-industry-performance-highlights-2024-April.pdf,extracted
+2024-04-01,2024,April,tea_production,west_of_rift,35359425.0,kg,kenya-tea-industry-performance-highlights-2024-April.pdf,extracted
 2024-05-01,2024,May,tea_production,all,54529182.0,kg,kenya-tea-industry-performance-highlights-2024-May.pdf,extracted
 2024-05-01,2024,May,tea_production,east_of_rift,18051225.0,kg,kenya-tea-industry-performance-highlights-2024-May.pdf,extracted
 2024-05-01,2024,May,tea_production,west_of_rift,35877958.0,kg,kenya-tea-industry-performance-highlights-2024-May.pdf,extracted
