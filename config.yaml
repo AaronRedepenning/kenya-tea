@@ -1,3 +1,6 @@
-reports_dir: "data/raw"
-ocr_dir: "data/ocr"
-data_file: "tbk-performance.csv"
+reports_dir: data/raw
+ocr_dir: data/ocr
+data_file: data/clean/observations_raw.csv
+reports_file: data/clean/reports.csv
+manual_file: data/clean/manual.csv
+final_file: data/tbk_dataset.csv

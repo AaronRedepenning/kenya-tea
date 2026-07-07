@@ -53,7 +53,7 @@ def main():
 
     for in_path in reports_dir.glob("*.pdf"):
         out_path = ocr_dir / in_path.name
-        ocr_pdf(in_path, out_path, [2, 3])
+        ocr_pdf(in_path, out_path, [1, 2, 3])
         print(f"  ✓ success | {in_path.name}")
 
 

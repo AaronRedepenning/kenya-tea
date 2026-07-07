@@ -4,7 +4,8 @@ import altair as alt
 import pandas as pd
 import streamlit as st
 
-full_df = pd.read_csv("data/tbk-performance.csv")
+full_df = pd.read_csv("data/tbk_dataset.csv")
+full_df = full_df[full_df["region"] == "all"]
 full_df["date"] = pd.to_datetime(full_df["date"])
 full_df["value"] /= 1_000_000
 

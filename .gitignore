@@ -1,4 +1,6 @@
 data/ocr
 data/raw
+data/clean
 *.pdf
+*.png
 .venv
